@@ -1,0 +1,949 @@
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ ssh-keygen -t rsa -b 4096 "dhineshs006@gmail.com"
+Too many arguments.
+usage: ssh-keygen [-q] [-b bits] [-C comment] [-f output_keyfile] [-m format]
+                  [-N new_passphrase] [-t dsa | ecdsa | ed25519 | rsa]
+       ssh-keygen -p [-f keyfile] [-m format] [-N new_passphrase]
+                   [-P old_passphrase]
+       ssh-keygen -i [-f input_keyfile] [-m key_format]
+       ssh-keygen -e [-f input_keyfile] [-m key_format]
+       ssh-keygen -y [-f input_keyfile]
+       ssh-keygen -c [-C comment] [-f keyfile] [-P passphrase]
+       ssh-keygen -l [-v] [-E fingerprint_hash] [-f input_keyfile]
+       ssh-keygen -B [-f input_keyfile]
+       ssh-keygen -D pkcs11
+       ssh-keygen -F hostname [-lv] [-f known_hosts_file]
+       ssh-keygen -H [-f known_hosts_file]
+       ssh-keygen -R hostname [-f known_hosts_file]
+       ssh-keygen -r hostname [-g] [-f input_keyfile]
+       ssh-keygen -G output_file [-v] [-b bits] [-M memory] [-S start_point]
+       ssh-keygen -f input_file -T output_file [-v] [-a rounds] [-J num_lines]
+                  [-j start_line] [-K checkpt] [-W generator]
+       ssh-keygen -I certificate_identity -s ca_key [-hU] [-D pkcs11_provider]
+                  [-n principals] [-O option] [-V validity_interval]
+                  [-z serial_number] file ...
+       ssh-keygen -L [-f input_keyfile]
+       ssh-keygen -A [-f prefix_path]
+       ssh-keygen -k -f krl_file [-u] [-s ca_public] [-z version_number]
+                  file ...
+       ssh-keygen -Q -f krl_file file ...
+       ssh-keygen -Y check-novalidate -n namespace -s signature_file
+       ssh-keygen -Y sign -f key_file -n namespace file ...
+       ssh-keygen -Y verify -f allowed_signers_file -I signer_identity
+                -n namespace -s signature_file [-r revocation_file]
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ git pull origin mas
+
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ ssh-keygen -t rsa -b 4096 -C "dhineshs006@gmail.com"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Users/DHINESH/.ssh/id_rsa):
+Created directory '/c/Users/DHINESH/.ssh'.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /c/Users/DHINESH/.ssh/id_rsa.
+Your public key has been saved in /c/Users/DHINESH/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:/v+p3GA5nxbf0dMAaVByY97cs8bE4+ZyIyYFakooL70 dhineshs006@gmail.com
+The key's randomart image is:
++---[RSA 4096]----+
+|          oo=.   |
+|           =++.. |
+|           o..o=.|
+|      .   . . = +|
+|   . . .So   . Bo|
+|    + ..o   ..=oo|
+|   . o ..  .=+ *+|
+|    . .  . oo==o+|
+|     E    ..++*  |
++----[SHA256]-----+
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ eval $(ssh-agent.exe -s)
+Agent pid 1822
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ ssh -add ~/.ssh/id_rsa
+ssh: unknown option -- d
+usage: ssh [-46AaCfGgKkMNnqsTtVvXxYy] [-B bind_interface]
+           [-b bind_address] [-c cipher_spec] [-D [bind_address:]port]
+           [-E log_file] [-e escape_char] [-F configfile] [-I pkcs11]
+           [-i identity_file] [-J [user@]host[:port]] [-L address]
+           [-l login_name] [-m mac_spec] [-O ctl_cmd] [-o option] [-p port]
+           [-Q query_option] [-R address] [-S ctl_path] [-W host:port]
+           [-w local_tun[:remote_tun]] destination [command]
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ ssh-add ~/.ssh/id_rsa
+Enter passphrase for /c/Users/DHINESH/.ssh/id_rsa:
+Identity added: /c/Users/DHINESH/.ssh/id_rsa (dhineshs006@gmail.com)
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ clip < ~/.ssh/id_rsa.pub
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ git re
+rebase         reflog         remote         repack         replace        request-pull   reset          restore        revert
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ git remote add orgin "https://github.com/Dhinesh94/dhinesh1994.git"
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ git pull origin  master
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 611 bytes | 5.00 KiB/s, done.
+From https://github.com/Dhinesh94/dhinesh1994
+ * branch            master     -> FETCH_HEAD
+ * [new branch]      master     -> origin/master
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$  git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Basic Calculator.txt
+        Function.txt
+        Function_return_statement.txt
+        List Functions.txt
+        List.txt
+        Python Basic Commands.txt
+        Tuples.txt
+        if else statement.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ git add *.txt
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$  git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Basic Calculator.txt
+        new file:   Function.txt
+        new file:   Function_return_statement.txt
+        new file:   List Functions.txt
+        new file:   List.txt
+        new file:   Python Basic Commands.txt
+        new file:   Tuples.txt
+        new file:   if else statement.txt
+
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ git commit -m "Commit done for python '*.txtfiles' "
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'DHINESH@DESKTOP-U2DGTEO.(none)')
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ git commit -m "Commit done for python *.txtfiles "
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'DHINESH@DESKTOP-U2DGTEO.(none)')
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ git config --global dhineshs006@gmail.com
+error: invalid key: dhineshs006@gmail.com
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ git config --global "dhineshs006@gmail.com"
+error: invalid key: dhineshs006@gmail.com
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ git config --global dhinesh
+error: key does not contain a section: dhinesh
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ git config --global "dhinesh"
+error: key does not contain a section: dhinesh
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ git config --global user.dhineshs006@gmail.com
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ git commit -m "Commit done for python *.txtfiles "
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'DHINESH@DESKTOP-U2DGTEO.(none)')
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ git config user.dhineshs006@gmail.com
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ git commit -m "Commit done for python *.txtfiles "
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'DHINESH@DESKTOP-U2DGTEO.(none)')
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ git commit
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'DHINESH@DESKTOP-U2DGTEO.(none)')
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ ping 8.8.8.8
+
+Pinging 8.8.8.8 with 32 bytes of data:
+Reply from 8.8.8.8: bytes=32 time=23ms TTL=56
+Reply from 8.8.8.8: bytes=32 time=25ms TTL=56
+Reply from 8.8.8.8: bytes=32 time=27ms TTL=56
+
+Ping statistics for 8.8.8.8:
+    Packets: Sent = 3, Received = 3, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 23ms, Maximum = 27ms, Average = 25ms
+Control-C
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ ^C
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ git config --global user.email "dhineshs006@gmail.com"
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ git commit -a -m "commit done for python *.txt files"
+[master 538fb8b] commit done for python *.txt files
+ 8 files changed, 531 insertions(+)
+ create mode 100644 Basic Calculator.txt
+ create mode 100644 Function.txt
+ create mode 100644 Function_return_statement.txt
+ create mode 100644 List Functions.txt
+ create mode 100644 List.txt
+ create mode 100644 Python Basic Commands.txt
+ create mode 100644 Tuples.txt
+ create mode 100644 if else statement.txt
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ git config user.name "Dhinesh"
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ git commit -A
+error: unknown switch `A'
+usage: git commit [<options>] [--] <pathspec>...
+
+    -q, --quiet           suppress summary after successful commit
+    -v, --verbose         show diff in commit message template
+
+Commit message options
+    -F, --file <file>     read message from file
+    --author <author>     override author for commit
+    --date <date>         override date for commit
+    -m, --message <message>
+                          commit message
+    -c, --reedit-message <commit>
+                          reuse and edit message from specified commit
+    -C, --reuse-message <commit>
+                          reuse message from specified commit
+    --fixup <commit>      use autosquash formatted message to fixup specified commit
+    --squash <commit>     use autosquash formatted message to squash specified commit
+    --reset-author        the commit is authored by me now (used with -C/-c/--amend)
+    -s, --signoff         add Signed-off-by:
+    -t, --template <file>
+                          use specified template file
+    -e, --edit            force edit of commit
+    --cleanup <mode>      how to strip spaces and #comments from message
+    --status              include status in commit message template
+    -S, --gpg-sign[=<key-id>]
+                          GPG sign commit
+
+Commit contents options
+    -a, --all             commit all changed files
+    -i, --include         add specified files to index for commit
+    --interactive         interactively add files
+    -p, --patch           interactively add changes
+    -o, --only            commit only specified files
+    -n, --no-verify       bypass pre-commit and commit-msg hooks
+    --dry-run             show what would be committed
+    --short               show status concisely
+    --branch              show branch information
+    --ahead-behind        compute full ahead/behind values
+    --porcelain           machine-readable output
+    --long                show status in long format (default)
+    -z, --null            terminate entries with NUL
+    --amend               amend previous commit
+    --no-post-rewrite     bypass post-rewrite hook
+    -u, --untracked-files[=<mode>]
+                          show untracked files, optional modes: all, normal, no. (Default: all)
+    --pathspec-from-file <file>
+                          read pathspec from file
+    --pathspec-file-nul   with --pathspec-from-file, pathspec elements are separated with NUL character
+
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ git commit -a
+On branch master
+nothing to commit, working tree clean
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ git log
+commit 538fb8b719f4839d433cdb8a14f4a1539bd7f1ec (HEAD -> master)
+Author: unknown <dhineshs006@gmail.com>
+Date:   Sat Feb 29 20:50:09 2020 -0800
+
+    commit done for python *.txt files
+
+commit 02105cb6ca08a9c771bc7a51f4b87922ac0ec99a (origin/master)
+Author: Dhinesh94 <59954526+Dhinesh94@users.noreply.github.com>
+Date:   Sat Feb 29 19:45:27 2020 -0800
+
+    Create README.md
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ git branch firstbranch
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ git checkout firstbranch
+Switched to branch 'firstbranch'
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (firstbranch)
+$ git status
+On branch firstbranch
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        first branch.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (firstbranch)
+$ git add first branch.txt
+fatal: pathspec 'first' did not match any files
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (firstbranch)
+$ git status
+On branch firstbranch
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        firstbranch.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (firstbranch)
+$ git add firstbranch.txt
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (firstbranch)
+$ git commit
+Aborting commit due to empty commit message.
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (firstbranch)
+$ git commit
+[firstbranch b0ad557] comminting on first branch
+ 1 file changed, 1 insertion(+)
+ create mode 100644 firstbranch.txt
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (firstbranch)
+$  ls
+'Basic Calculator.txt'   Function.txt                   'if else statement.txt'   List.txt                     README.md
+ firstbranch.txt         Function_return_statement.txt  'List Functions.txt'     'Python Basic Commands.txt'   Tuples.txt
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (firstbranch)
+$ git checkout master
+Switched to branch 'master'
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ ls
+'Basic Calculator.txt'   Function.txt   Function_return_statement.txt  'if else statement.txt'  'List Functions.txt'   List.txt  'Python Basic Commands.txt'   README.md   Tuples.txt
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$   git merge firstbranch
+Updating 538fb8b..b0ad557
+Fast-forward
+ firstbranch.txt | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 firstbranch.txt
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ ls
+'Basic Calculator.txt'   Function.txt                   'if else statement.txt'   List.txt                     README.md
+ firstbranch.txt         Function_return_statement.txt  'List Functions.txt'     'Python Basic Commands.txt'   Tuples.txt
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ git checkout firstbranch
+Switched to branch 'firstbranch'
+M       firstbranch.txt
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (firstbranch)
+$
+
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (firstbranch)
+$
+
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (firstbranch)
+$
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (firstbranch)
+$ git commit -a -m "modifying first branch seperately now again"
+[firstbranch 451c4fb] modifying first branch seperately now again
+ 1 file changed, 3 insertions(+)
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (firstbranch)
+$ get checkout master
+bash: get: command not found
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (firstbranch)
+$ git checkout master
+Switched to branch 'master'
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ ls
+'Basic Calculator.txt'   Function.txt                   'if else statement.txt'   List.txt                     README.md
+ firstbranch.txt         Function_return_statement.txt  'List Functions.txt'     'Python Basic Commands.txt'   Tuples.txt
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ cat firstbranch.txt
+first branch file
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ git checkout firstbranch
+Switched to branch 'firstbranch'
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (firstbranch)
+$ ls
+'Basic Calculator.txt'   Function.txt                   'if else statement.txt'   List.txt                     README.md
+ firstbranch.txt         Function_return_statement.txt  'List Functions.txt'     'Python Basic Commands.txt'   Tuples.txt
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (firstbranch)
+$ cat firstbranch.txt
+first branch file
+
+
+modification in first branch
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (firstbranch)
+$ git checkout master
+Switched to branch 'master'
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$  git log
+commit b0ad557fbdbf1f71bcadb0a519b137fd8668a2c6 (HEAD -> master)
+Author: Dhinesh <dhineshs006@gmail.com>
+Date:   Sat Feb 29 21:46:30 2020 -0800
+
+    comminting on first branch
+
+commit 538fb8b719f4839d433cdb8a14f4a1539bd7f1ec
+Author: unknown <dhineshs006@gmail.com>
+Date:   Sat Feb 29 20:50:09 2020 -0800
+
+    commit done for python *.txt files
+
+commit 02105cb6ca08a9c771bc7a51f4b87922ac0ec99a (origin/master)
+Author: Dhinesh94 <59954526+Dhinesh94@users.noreply.github.com>
+Date:   Sat Feb 29 19:45:27 2020 -0800
+
+    Create README.md
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Second new file.txt
+        new file.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ git add Second\ new\ file.txt
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Second new file.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        new file.txt
+
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ git add -A
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Second new file.txt
+        new file:   new file.txt
+
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ git commit -a -m "just checking with new file"
+[master 1ecbeb0] just checking with new file
+ 2 files changed, 1 insertion(+)
+ create mode 100644 Second new file.txt
+ create mode 100644 new file.txt
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    Second new file.txt
+        deleted:    new file.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ git commit -a
+Aborting commit due to empty commit message.
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ git commit -a -m "commiting for a deleted file
+> "
+[master 719f89b] commiting for a deleted file
+ 2 files changed, 1 deletion(-)
+ delete mode 100644 Second new file.txt
+ delete mode 100644 new file.txt
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ git log
+commit 719f89bc02062a256ef0839e5e1784022a59b445 (HEAD -> master)
+Author: Dhinesh <dhineshs006@gmail.com>
+Date:   Sat Feb 29 22:53:00 2020 -0800
+
+    commiting for a deleted file
+
+commit 1ecbeb0d52ed36687bd6b7c6a72c946ee23af432
+Author: Dhinesh <dhineshs006@gmail.com>
+Date:   Sat Feb 29 22:51:55 2020 -0800
+
+    just checking with new file
+
+commit b0ad557fbdbf1f71bcadb0a519b137fd8668a2c6
+Author: Dhinesh <dhineshs006@gmail.com>
+Date:   Sat Feb 29 21:46:30 2020 -0800
+
+    comminting on first branch
+
+commit 538fb8b719f4839d433cdb8a14f4a1539bd7f1ec
+Author: unknown <dhineshs006@gmail.com>
+Date:   Sat Feb 29 20:50:09 2020 -0800
+
+    commit done for python *.txt files
+
+commit 02105cb6ca08a9c771bc7a51f4b87922ac0ec99a (origin/master)
+Author: Dhinesh94 <59954526+Dhinesh94@users.noreply.github.com>
+Date:   Sat Feb 29 19:45:27 2020 -0800
+
+    Create README.md
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ git checkout firstbranch
+Switched to branch 'firstbranch'
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (firstbranch)
+$ git status
+On branch firstbranch
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        test1.txt
+        test2.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (firstbranch)
+$ git add test1.txt test2.txt test
+fatal: pathspec 'test' did not match any files
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (firstbranch)
+$ git add test1.txt test2.txt
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (firstbranch)
+$ git status
+On branch firstbranch
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   test1.txt
+        new file:   test2.txt
+
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (firstbranch)
+$ git checkout master
+Switched to branch 'master'
+A       test1.txt
+A       test2.txt
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ ls
+'Basic Calculator.txt'   Function.txt                   'if else statement.txt'   List.txt                     README.md   test2.txt
+ firstbranch.txt         Function_return_statement.txt  'List Functions.txt'     'Python Basic Commands.txt'   test1.txt   Tuples.txt
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ cat test1.txt
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   test1.txt
+        new file:   test2.txt
+
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ git commit -a -m "test"
+On branch master
+nothing to commit, working tree clean
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ ls
+'Basic Calculator.txt'   Function.txt                   'if else statement.txt'   List.txt                     README.md
+ firstbranch.txt         Function_return_statement.txt  'List Functions.txt'     'Python Basic Commands.txt'   Tuples.txt
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ git checkout firstbranch
+Switched to branch 'firstbranch'
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (firstbranch)
+$ git sta
+stage    stash    status
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (firstbranch)
+$ git status
+On branch firstbranch
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   test1.txt
+        new file:   test2.txt
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    test1.txt
+        deleted:    test2.txt
+
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (firstbranch)
+$ git checkout master
+Switched to branch 'master'
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   test1.txt
+        new file:   test2.txt
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    test1.txt
+        deleted:    test2.txt
+
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ git che
+checkout      cherry        cherry-pick
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ git checkout firstbranch
+Switched to branch 'firstbranch'
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (firstbranch)
+$ ls
+'Basic Calculator.txt'   Function.txt                   'if else statement.txt'   List.txt                     README.md
+ firstbranch.txt         Function_return_statement.txt  'List Functions.txt'     'Python Basic Commands.txt'   Tuples.txt
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (firstbranch)
+$ ls
+'Basic Calculator.txt'   Function.txt                   'if else statement.txt'   List.txt                     README.md   test2.txt
+ firstbranch.txt         Function_return_statement.txt  'List Functions.txt'     'Python Basic Commands.txt'   test1.txt   Tuples.txt
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (firstbranch)
+$ git status
+On branch firstbranch
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   test1.txt
+        new file:   test2.txt
+
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (firstbranch)
+$ git add test1.txt test2.txt
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (firstbranch)
+$ git status
+On branch firstbranch
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   test1.txt
+        new file:   test2.txt
+
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (firstbranch)
+$ git commit -a -m "test"
+[firstbranch d1dd57f] test
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 test1.txt
+ create mode 100644 test2.txt
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (firstbranch)
+$
+
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (firstbranch)
+$
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (firstbranch)
+$ ls
+'Basic Calculator.txt'   Function.txt                   'if else statement.txt'   List.txt                     README.md   test2.txt
+ firstbranch.txt         Function_return_statement.txt  'List Functions.txt'     'Python Basic Commands.txt'   test1.txt   Tuples.txt
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (firstbranch)
+$ git checkout master
+Switched to branch 'master'
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ ls
+'Basic Calculator.txt'   Function.txt                   'if else statement.txt'   List.txt                     README.md
+ firstbranch.txt         Function_return_statement.txt  'List Functions.txt'     'Python Basic Commands.txt'   Tuples.txt
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ ls
+'Basic Calculator.txt'   Function.txt                   'if else statement.txt'   List.txt                     README.md
+ firstbranch.txt         Function_return_statement.txt  'List Functions.txt'     'Python Basic Commands.txt'   Tuples.txt
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ git rebase firstbranch
+First, rewinding head to replay your work on top of it...
+Applying: just checking with new file
+Applying: commiting for a deleted file
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ ls
+'Basic Calculator.txt'   Function.txt                   'if else statement.txt'   List.txt                     README.md   test2.txt
+ firstbranch.txt         Function_return_statement.txt  'List Functions.txt'     'Python Basic Commands.txt'   test1.txt   Tuples.txt
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ ls
+'Basic Calculator.txt'   Function.txt                   'if else statement.txt'   List.txt                     README.md   test2.txt
+ firstbranch.txt         Function_return_statement.txt  'List Functions.txt'     'Python Basic Commands.txt'   test1.txt   Tuples.txt
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ git rebase firstbranch
+Current branch master is up to date.
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ ssh -T git@github.com
+The authenticity of host 'github.com (13.234.210.38)' can't be established.
+RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'github.com,13.234.210.38' (RSA) to the list of known hosts.
+Hi Dhinesh94! You've successfully authenticated, but GitHub does not provide shell access.
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ ssh -T git@github.com:Dhinesh94/dhinesh1994.git
+ssh: Could not resolve hostname github.com:Dhinesh94/dhinesh1994.git: Name or service not known
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ ssh -T git@github.com
+Warning: Permanently added the RSA host key for IP address '13.234.176.102' to the list of known hosts.
+Hi Dhinesh94! You've successfully authenticated, but GitHub does not provide shell access.
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ git checkout firstbranch
+Switched to branch 'firstbranch'
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (firstbranch)
+$ git push origin firstbranch
+Enumerating objects: 20, done.
+Counting objects: 100% (20/20), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (16/16), done.
+Writing objects: 100% (19/19), 5.48 KiB | 468.00 KiB/s, done.
+Total 19 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), done.
+remote:
+remote: Create a pull request for 'firstbranch' on GitHub by visiting:
+remote:      https://github.com/Dhinesh94/dhinesh1994/pull/new/firstbranch
+remote:
+To https://github.com/Dhinesh94/dhinesh1994.git
+ * [new branch]      firstbranch -> firstbranch
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (firstbranch)
+$ git checkout master
+Switched to branch 'master'
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ ls
+'Basic Calculator.txt'   Function.txt                   'if else statement.txt'   List.txt                     README.md   test2.txt
+ firstbranch.txt         Function_return_statement.txt  'List Functions.txt'     'Python Basic Commands.txt'   test1.txt   Tuples.txt
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ git push origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 481 bytes | 240.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Dhinesh94/dhinesh1994.git
+   02105cb..91a000e  master -> master
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ ls
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ git pull origin master
+From https://github.com/Dhinesh94/dhinesh1994
+ * branch            master     -> FETCH_HEAD
+Already up to date.
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ ls
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ git commit -a
+[master d9e3668] done for checking
+ 12 files changed, 538 deletions(-)
+ delete mode 100644 Basic Calculator.txt
+ delete mode 100644 Function.txt
+ delete mode 100644 Function_return_statement.txt
+ delete mode 100644 List Functions.txt
+ delete mode 100644 List.txt
+ delete mode 100644 Python Basic Commands.txt
+ delete mode 100644 README.md
+ delete mode 100644 Tuples.txt
+ delete mode 100644 firstbranch.txt
+ delete mode 100644 if else statement.txt
+ delete mode 100644 test1.txt
+ delete mode 100644 test2.txt
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ ls
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ ls
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ git pull origin master
+From https://github.com/Dhinesh94/dhinesh1994
+ * branch            master     -> FETCH_HEAD
+Already up to date.
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ ls
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ git commit
+On branch master
+nothing to commit, working tree clean
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$ ls
+
+DHINESH@DESKTOP-U2DGTEO MINGW64 /c/GitHub (master)
+$
