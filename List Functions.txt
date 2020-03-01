@@ -1,0 +1,155 @@
+# LIST FUNCTION    []
+# extend , append , insert , remove, clear, pop, index, count, sort, reverse, copy,
+
+##########   EXTEND     #################
+#EXTEND Function which we can add another variable into this variable
+language=["Linux", "Python", "Java", "Scala", "Ansible"]
+technology=["Devops","Open Stack", "Data Science", "Splunk" ]
+numbers=[5, 9, 3, 6, 2, 8, 7, 1]
+technology.extend(language)
+technology.extend(numbers)
+print("     EXTEND    ")
+print(technology)
+print("extend optput= " +str(technology))
+
+############## APPEND  ####################
+# Append is used to add element in varibale_name
+language=["Linux", "Python", "Java", "Scala", "Ansible"]
+technology=["Devops","Open Stack", "Data Science", "Splunk" ]
+numbers=[5, 9, 3, 6, 2, 8, 7, 1]
+technology.append("Open Shift")
+print("          APPEND      ")
+print("append output= " + str(technology))
+
+#########     INSERT    #########
+language=["Linux", "Python", "Java", "Scala", "Ansible"]
+technology=["Devops","Open Stack", "Data Science", "Splunk" ]
+numbers=[5, 9, 3, 6, 2, 8, 7, 1]
+numbers.insert(3, 4)  #  3 is the index value 4 is the Item to be added in variable name(numbers)
+technology.insert(3, "Open shift")
+print("       INSERT        ")
+print(numbers)
+print(technology)
+
+########### REMOVE   ############
+
+language=["Linux", "Python", "Java", "Scala", "Ansible"]
+technology=["Devops","Open Stack", "Data Science", "Splunk" ]
+numbers=[5, 9, 3, 6, 2, 8, 7, 1]
+numbers.remove(9)
+technology.remove("Data Science")
+language.remove("Scala")
+print("    REMOVE    ")
+print(language)
+print(technology)
+print(language)
+#############   CLEAR   ##############
+technology.clear()
+numbers.clear()
+language.clear()
+print("  CLEAR    ")
+print(language)
+print(technology)
+print(language)
+
+#######  POP  ########
+### pop function will pop out the last value
+language=["Linux", "Python", "Java", "Scala", "Ansible"]
+technology=["Devops","Open Stack", "Data Science", "Splunk" ]
+numbers=[5, 9, 3, 6, 2, 8, 7, 1]
+technology.pop()
+numbers.pop()
+language.pop()
+print("    POP   ")
+print(technology + numbers +language )
+
+######   INDEX   #######
+#index value will be printed
+#index function we need give the item name it will print the index value
+print("    INDEX")
+language=["Linux", "Python", "Java", "Scala", "Ansible"]
+technology=["Devops","Open Stack", "Data Science", "Splunk" ]
+numbers=[5, 9, 3, 6, 2, 8, 7, 1]
+print(technology.index("Open Stack"))
+print(language.index("Python"))
+print(numbers.index(7))
+
+###### COUNT  ####
+#will give the count how many times the word has been repeated
+technology=["Devops","Open Stack", "Data Science", "Splunk", "Devops","Open Stack", "Data Science", "Splunk" ,"Devops","Open Stack", "Data Science", "Splunk" ,"Devops","Open Stack", "Data Science", "Splunk"  ]
+print("      COUNT")
+print(technology.count("Devops"))
+
+
+
+#####    SORT    ######
+# will sort in decending order
+language=["Linux", "Python", "Java", "Scala", "Ansible"]
+technology=["Devops","Open Stack", "Data Science", "Splunk" ]
+numbers=[5, 9, 3, 6, 2, 8, 7, 1]
+language.sort()
+technology.sort()
+numbers.sort()
+print("      SORT")
+print(language)
+print(technology)
+print(numbers)
+
+####    REVERSE   ######
+#will give direct reverse value
+language=["Linux", "Python", "Java", "Scala", "Ansible"]
+technology=["Devops","Open Stack", "Data Science", "Splunk" ]
+numbers=[5, 9, 3, 6, 2, 8, 7, 1]
+print("   Reverse    ")
+technology.reverse()
+language.reverse()
+numbers.reverse()
+print(technology)
+
+#### COPY   #####
+# cpoy the value from another varaible into new variable
+technology=["Devops","Open Stack", "Data Science", "Splunk" ]
+techno=technology.copy()
+print("    COPY")
+print(techno)
+
+
+
+
+OUTPUT
+
+C:\Users\DHINESH\PycharmProjects\Dhinesh\venv\Scripts\python.exe C:/Users/DHINESH/PycharmProjects/Dhinesh/list_function.py
+     EXTEND    
+['Devops', 'Open Stack', 'Data Science', 'Splunk', 'Linux', 'Python', 'Java', 'Scala', 'Ansible', 5, 9, 3, 6, 2, 8, 7, 1]
+extend optput= ['Devops', 'Open Stack', 'Data Science', 'Splunk', 'Linux', 'Python', 'Java', 'Scala', 'Ansible', 5, 9, 3, 6, 2, 8, 7, 1]
+          APPEND      
+append output= ['Devops', 'Open Stack', 'Data Science', 'Splunk', 'Open Shift']
+       INSERT        
+[5, 9, 3, 4, 6, 2, 8, 7, 1]
+['Devops', 'Open Stack', 'Data Science', 'Open shift', 'Splunk']
+    REMOVE    
+['Linux', 'Python', 'Java', 'Ansible']
+['Devops', 'Open Stack', 'Splunk']
+['Linux', 'Python', 'Java', 'Ansible']
+  CLEAR    
+[]
+[]
+[]
+    POP   
+['Devops', 'Open Stack', 'Data Science', 5, 9, 3, 6, 2, 8, 7, 'Linux', 'Python', 'Java', 'Scala']
+    INDEX
+1
+1
+6
+      COUNT
+4
+      SORT
+['Ansible', 'Java', 'Linux', 'Python', 'Scala']
+['Data Science', 'Devops', 'Open Stack', 'Splunk']
+[1, 2, 3, 5, 6, 7, 8, 9]
+   Reverse    
+['Splunk', 'Data Science', 'Open Stack', 'Devops']
+    COPY
+['Devops', 'Open Stack', 'Data Science', 'Splunk']
+
+Process finished with exit code 0

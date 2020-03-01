@@ -1,0 +1,35 @@
+#########################   RETURN STATEMENT  ############
+#########################################################
+
+def cube(num):
+    return num*num*num    # return will break the funtion so after giving return we cannot any more line to this function
+    print(" this statement will not get printed because return breaks the funtion")
+print(cube(4))
+
+
+
+###########error ##############
+#below is error statement why because the function cannot do the multipiccation by so we need to give return statement for it
+#def cube(num):
+#    num*num*num    # return will break the funtion so after giving return we cannot any more line to this function
+#    print(" this statement will not get printed because return breaks the funtion")
+# print(cube(4))
+
+#####saving function into variable
+def cube(num):
+    return num*num*num    # return will break the funtion so after giving return we cannot any more line to this function
+    print(" this statement will not get printed because return breaks the funtion")
+print("SAVING FUNCTION INTO VARIABLE ")
+result=cube(4)
+print(result)
+
+
+OUTPUT
+
+C:\Users\DHINESH\PycharmProjects\Dhinesh\venv\Scripts\python.exe "C:/Users/DHINESH/PycharmProjects/Dhinesh/Function_ return_statement.py"
+64
+SAVING FUNCTION INTO VARIABLE 
+64
+
+Process finished with exit code 0
+
